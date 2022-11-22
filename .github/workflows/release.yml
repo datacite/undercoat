@@ -14,26 +14,24 @@ jobs:
       CLOUDFRONT_DISTRIBUTION_ID: ${{ secrets.CLOUDFRONT_DISTRIBUTION_ID }}
       SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-ruby@v1
+      - uses: actions/checkout@v3
         with:
-          ruby-version: '2.6'
+          submodules: true  # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'
+          # extended: true
 
       - name: Build
-        run: |
-          cp $ENV_FILE .env
-          gem install bundler -v 1.17.3
-          bundle install --jobs 4 --retry 3
-          yarn install --non-interactive
-          wget https://github.com/jgm/pandoc/releases/download/1.19.2.1/pandoc-1.19.2.1-1-amd64.deb
-          sudo dpkg -i pandoc-1.19.2.1-1-amd64.deb
-          rm pandoc-1.19.2.1-1-amd64.deb
-          bundle exec middleman build -e $RACK_ENV
+        run: hugo --minify
           
       - name: Deploy 
         uses: reggionick/s3-deploy@v3
         with:
-          folder: build
+          folder: ./public
           bucket: ${{ secrets.S3_BUCKET }}
           bucket-region: ${{ secrets.S3_BUCKET_REGION }}
           dist-id: ${{ secrets.CLOUDFRONT_DISTRIBUTION_ID }}
