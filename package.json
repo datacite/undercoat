@@ -1,0 +1,19 @@
+{
+  "name": "undercoat",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kristian Garza <kj.garza@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "hugo-extended": "^0.106.0",
+    "postcss": "^8.4.19",
+    "postcss-cli": "^10.0.0"
+  }
+}
