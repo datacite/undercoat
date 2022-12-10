@@ -1,0 +1,25 @@
+<!-- 404 html page -->
+<!-- <!DOCTYPE html> -->
+<html>
+{{- partial "head.html" . -}}
+
+<body>
+  {{- partial "header.html" . -}}
+  <div class="bg-light" id="content">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h1 class="display-4">404</h1>
+          <p class="lead">The page you are looking for does not exist.</p>
+          <hr class="my-4">
+          <p>It looks like nothing was found at this location. Maybe try a search?</p>
+          <p class="lead">
+            <a class="btn btn-primary btn-lg" href="/" role="button">Go to homepage</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    {{- partial "footer.html" . -}}
+</body>
+
+</html>
