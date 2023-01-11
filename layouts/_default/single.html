@@ -1,0 +1,20 @@
+{{ define "main" }}
+
+{{ .Title }}
+
+{{ if not .image }}
+  <br>
+  <br>
+  <br>
+{{ else}}
+
+{{ with .image }}
+  <img src="{{ . | relURL }}" alt="{{ .Alt }}" />
+{{ end }}
+{{ end }}
+
+<div class="container article">
+  {{ .Content }}
+</div>
+
+{{ end }}
