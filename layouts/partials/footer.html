@@ -1,30 +1,23 @@
 <footer class="footer fixed-bottom bg-dark">
 
-
- 
-
-  <!-- <div class="row footer-text">
-    <div class="col-12 col-md text-center text-md-left nav-link text-white">
-      
-    </div>
-  </div> -->
-
   <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
     <div class="container-sm">
-      <a class="navbar-brand" href="#">DataCite</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <a class="navbar-brand" href="https://datacite.org/">DataCite</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Support <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="https://support.datacite.org/">Support</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Roadmap</a>
+            <a class="nav-link" href="https://datacite.org/roadmap.html">Roadmap</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
+            <a class="nav-link" href="https://github.com/datacite/undercoat">
+              <i class="fab fa-github"></i> Github </a>
           </li>
 
         </ul>
@@ -32,11 +25,11 @@
     </div>
   </nav>
 
-<!-- JavaScript and dependencies -->
+  <!-- JavaScript and dependencies -->
 
-{{ $bootstrap := resources.Get "js/bootstrap.bundle.min.js" }}
-{{ $js := slice $bootstrap | resources.Concat "js/bundle.js" | resources.Minify }}
+  {{ $bootstrap := resources.Get "js/bootstrap.bundle.min.js" }}
+  {{ $js := slice $bootstrap | resources.Concat "js/bundle.js" | resources.Minify }}
 
-<script src="{{$js.RelPermalink}}" defer></script>
+  <script src="{{$js.RelPermalink}}" defer></script>
 
 </footer>
