@@ -1,13 +1,6 @@
 
-.jumbotron {
-  padding: 4rem 2rem;
-  margin-bottom: 2rem;
-  background-color: var(--bs-light);
-  border-radius: .3rem;  
-}
-
 $theme-colors: (
-  "blue": #0d6efd,
+  "blue": #0071B3,
   "indigo": #6610f2,
   "purple": #6f42c1,
   "pink": #d63384,
@@ -31,10 +24,15 @@ $theme-colors: (
   "gray-800": #343a40,
   "gray-900": #212529,
   "dark": #243B54,
+  "light": #E6EEF5,
+  "primary": #0071B3,
+  "secondary": #6c757d,
+  "success": #198754,
+  "info": #0dcaf0,
+  "warning": #ffc107,
   "danger": #ff4136,
   "link-color": #0d6efd,
   "link-hover-color": #0a58ca,
   "code-color": #d63384,
   "highlight-bg": #fff3cd,
 );
-
