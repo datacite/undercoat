@@ -1,0 +1,41 @@
+name: Component Documentation
+description: Add Documentation for a component
+title: "[Component Update]: "
+labels: ["update"]
+assignees:
+  - kjgarza
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this documentation issue
+  - type: textarea
+    id: description
+    attributes:
+      label: Contribution description
+      description: Add a short description of your contribution. Consider adding a checklist of variations, states, and breakpoints to the description so that reviewers can be sure to cross reference everything that has been completed.
+      placeholder: 
+    validations:
+      required: true
+  - type: input
+    id: figma-file
+    attributes:
+      label: Figma file 
+      description: Before pasting the link to your Figma file/frame, in the file sharing settings, make sure that “anyone with the link” can view or that a specific user has been invited to the file.
+      placeholder: ex. https://www.figma.com/best-practices/branching-in-figma/
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: |
+        The purpose of these tasks is to ensure consistency with the rest of the components and to save time during the review process. When you are finished with your update, please go through the following clean-up tasks in Figma:
+        1. [ ] **Canvas**: Make sure no hidden elements have been accidentally left behind. Use **View > Show Outlines** (<kbd>⌘</kbd> + <kbd>Y</kbd>) to reveal invisible objects. Use **View > Zoom to Fit** (<kbd>Shift</kbd> + <kbd>1</kbd>) to view all items on the page.
+        1. [ ] **Components**: Where applicable, make sure all components have updated descriptions and have external documentation links.
+        1. [ ] **Frames**: Make spacing within and between frames consistent with components found on other pages.
+        1. [ ] **Layers**: Make sure all your layers are correctly named and the order match visual from left to right. In the case of Auto Layout, Figma will determine layer order.
+        1. [ ] **Variants**: Remove the default dashed purple stroke, border radius, and padding from all variants.
+        1. [ ] **Variants**: Reorder variants in properties panel to match visual order. In the case of Auto Layout, Figma will determine layer order.
+        1. [ ] **Comments**: Make sure all comments and discussion are resolved.
+    validations:
+      required: true
+
