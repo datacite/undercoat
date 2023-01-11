@@ -10,6 +10,8 @@ bolognese: To ensure that everyone can contribute to DataCite with confidence we
 
 A design system is more than just a collection of design assets - it is a comprehensive approach to creating consistent, user-friendly interfaces for DataCite's web services. By using a design system, we can ensure that our designs are cohesive, efficient, and adaptable.
 
+Datacite's design system is our single source of truth (SSOT) for resources, components, and design guidelines. Undercoat pulls in components from Undercoat UI, which are in turn used within the product. Our Undercoat UI kit is used as a reference for building SSOT components, but is not the SSOT itself.
+
 The Components of Undercoat include a range of design elements, such as colors, typography, buttons, and forms, as well as more complex components such as navigation menus and data visualizations.
 
 But the benefits of using a design system go beyond just having a set of pre-defined design elements. By having a standardized design language, our teams can save time and effort in the design and development process, and focus on creating innovative solutions that meet the needs of our users.
