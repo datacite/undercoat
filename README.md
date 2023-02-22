@@ -25,7 +25,7 @@ Access the [undercoat toolkit]()
 
 ## Contributing
 
-We welcome contributions from the community! If you'd like to contribute to Undercoat, please review our [contribution guidelines](https://github.com/kjgarza/undercoat/contributing.md).
+We welcome contributions from the community! If you'd like to contribute to Undercoat, please review our [contribution guidelines](CONTRIBUTING.md).
 
 ## Design Principles
 
