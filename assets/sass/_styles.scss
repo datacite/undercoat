@@ -38,38 +38,43 @@ $theme-colors: (
 );
 
 
-h1 {
+h1, .h1 {
   font-family: 'DM Sans', sans-serif;
   font-size: 48px;
   font-size: 3rem;
   font-weight: 700;
   letter-spacing: -1.6px;
   letter-spacing: -0.1rem;
-  line-height: 1;
-}
-h1 span.light {
+  line-height: 1; }
+
+h1 span.light, .h1 span.light {
   font-family: 'DM Sans', sans-serif;
-  font-weight: 300;
-}
-h2 {
+  font-weight: 300; }
+
+h2, .h2 {
   font-family: 'DM Sans', sans-serif;
   font-size: 32px;
   font-size: 2rem;
-  font-weight: 700;
-}
-h2 span.light {
+  font-weight: 700; }
+
+h2 span.light, .h2 span.light {
   font-family: 'DM Sans', sans-serif;
-  font-weight: 300;
-}
-h3 {
+  font-weight: 300; }
+
+h3, .h3 {
   font-family: 'DM Sans', sans-serif;
   font-weight: 700;
-  letter-spacing: 0;
-}
+  letter-spacing: 0; }
 
 body {
   font-family: Barlow, Roboto, Helvetica Neue, sans-serif;
-  font-size: 28px;
+  font-size: 28px; }
+
+a {
+  font-family: 'DM Sans', sans-serif; 
+
+    text-decoration: none;
+    color: currentColor
 }
 
 @mixin gradient-y($start-color: #243B54, $end-color: #0071B3, $start-percent: 20%, $end-percent: null) {
@@ -108,4 +113,156 @@ svg .up {
 .gradient-dos {
   fill:  var(--bs-light);
   // fill: linear-gradient(to bottom, var(--bs-dark), var(--bs-blue));
+}
+
+
+.footer {
+  background-color: #243b54;
+  padding-top: 5rem;
+  font-size: .75rem
+}
+
+@media (min-width: 992px) {
+  .footer {
+      padding-bottom:2.25rem
+  }
+}
+
+.footer__first-row {
+  padding-bottom: 1rem
+}
+
+@media (min-width: 992px) {
+  .footer__first-row {
+      padding-bottom:3.75rem
+  }
+}
+
+.footer__logo {
+  margin-bottom: 2.25rem
+}
+
+.footer__menu-header {
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: DM Sans,sans-serif;
+  line-height: 1.25;
+  color: #00b1e2;
+  margin-bottom: 1rem
+}
+
+@media (min-width: 992px) {
+  .footer__menu-header {
+      margin-bottom:2rem
+  }
+}
+
+.footer__menu {
+  margin-bottom: 2rem
+}
+
+.footer__menu--horizontal ul {
+  display: -webkit-flex;
+  display: flex
+}
+
+.footer__menu--padding-left ul li {
+  padding-left: 3.75rem
+}
+
+.footer__menu--padding-right ul li {
+  padding-right: 3.75rem
+}
+
+.footer__menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0
+}
+
+.footer__menu ul li {
+  font-size: .875rem;
+  font-weight: 500;
+  font-family: DM Sans,sans-serif;
+  color: hsla(0,0%,100%,.6);
+  margin: 0 0 .75rem
+}
+
+.footer__menu ul li:hover a {
+  color: #fff
+}
+
+.footer__menu ul li a {
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  color: currentColor
+}
+
+.footer__lower-menu {
+  border-top: 1px solid hsla(0,0%,66.7%,.32);
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  padding-top: 1rem;
+  -webkit-flex-direction: column;
+  flex-direction: column
+}
+
+@media (min-width: 992px) {
+  .footer__lower-menu {
+      padding-top:2.25rem;
+      -webkit-flex-direction: row;
+      flex-direction: row
+  }
+}
+
+// img,svg,video {
+//   max-width: 100%;
+//   margin: 0;
+//   display: block
+// }
+
+.social-share {
+  margin-top: 1rem;
+  margin-bottom: 2rem
+}
+
+@media (min-width: 992px) {
+  .social-share {
+      margin-top:3rem;
+      margin-bottom: 3rem
+  }
+}
+
+.social-share__title {
+  font-size: 1.125rem;
+  line-height: 1.625rem
+}
+
+.social-share__container,.socials {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center
+}
+
+.socials {
+  margin-bottom: 3.5rem
+}
+
+.socials__link {
+  display: block;
+  margin-right: 1rem
+}
+
+.header {
+  background-color: var(--bs-dark); 
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.content {
+  background-color: var(--bs-light); 
 }

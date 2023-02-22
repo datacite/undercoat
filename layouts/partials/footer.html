@@ -1,4 +1,4 @@
-<footer class="footer fixed-bottom bg-dark">
+<!-- <footer class="footer fixed-bottom bg-dark">
 
   <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
     <div class="container-sm">
@@ -28,11 +28,121 @@
     </div>
   </nav>
 
-  <!-- JavaScript and dependencies -->
 
   {{ $bootstrap := resources.Get "js/bootstrap.bundle.min.js" }}
   {{ $js := slice $bootstrap | resources.Concat "js/bundle.js" | resources.Minify }}
 
   <script src="{{$js.RelPermalink}}" defer></script>
 
+</footer> -->
+
+<footer class="footer">
+  <div class="container">
+    <div class="row footer__first-row">
+      <div class="col-sm-12 col-md-4 col-lg-3">
+        <a href="https://datacite.org">
+                    <img class="footer__logo" src="https://staging2.blog.datacite.org/wp-content/uploads/2023/02/footer_logo.svg" alt="">
+                  </a>
+
+                <div class="socials">
+                      <a class="socials__link" href="https://pl.linkedin.com/" target="_blank">
+              <img class="socials__icon" src="https://staging2.blog.datacite.org/wp-content/uploads/2023/02/linkedin_logo.svg" alt="">
+            </a>
+                      <a class="socials__link" href="https://github.com/" target="_blank">
+              <img class="socials__icon" src="https://staging2.blog.datacite.org/wp-content/uploads/2023/02/github_logo.svg" alt="">
+            </a>
+                      <a class="socials__link" href="https://www.youtube.com/" target="_blank">
+              <img class="socials__icon" src="https://staging2.blog.datacite.org/wp-content/uploads/2023/02/youtube_logo.svg" alt="">
+            </a>
+                      <a class="socials__link" href="https://www.twitter.com/" target="_blank">
+              <img class="socials__icon" src="https://staging2.blog.datacite.org/wp-content/uploads/2023/02/twitter_logo.svg" alt="">
+            </a>
+                  </div>
+
+        
+        
+        <div class="footer__menu">
+          <div class="menu-footer-menu-contact-container"><ul id="menu-footer-menu-contact" class="menu"><li id="menu-item-4280" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4280"><a href="https://staging2.blog.datacite.org/contact/">Contact</a></li>
+<li id="menu-item-4281" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-4281"><a href="https://datacite.org/blog/">Blog</a></li>
+</ul></div>
+        </div>
+
+              </div>
+
+      <div class="col-sm-12 col-md-8 col-lg-9">
+
+                <div class="row">
+          
+            <div class="col-sm-6 col-md-6 col-lg-3">
+              <h3 class="footer__menu-header">About Us</h3>
+              <div class="footer__menu">
+                <div class="menu-footer-menu-about-container"><ul id="menu-footer-menu-about" class="menu"><li id="menu-item-2002" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2002"><a href="https://datacite.org/value.html">What we do</a></li>
+<li id="menu-item-4279" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4279"><a href="https://datacite.org/governance/">Governance</a></li>
+<li id="menu-item-2004" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2004"><a href="https://datacite.org/members.html">Members</a></li>
+<li id="menu-item-2005" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2005"><a href="https://datacite.org/steering.html">Steering groups</a></li>
+<li id="menu-item-2006" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2006"><a href="https://datacite.org/team.html">Team</a></li>
+<li id="menu-item-2007" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2007"><a href="https://datacite.org/jobopportunities.html">Job opportunities</a></li>
+</ul></div>
+              </div>
+            </div>
+          
+            <div class="col-sm-6 col-md-6 col-lg-3">
+              <h3 class="footer__menu-header">Services</h3>
+              <div class="footer__menu">
+                <div class="menu-footer-menu-services-container"><ul id="menu-footer-menu-services" class="menu"><li id="menu-item-2008" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2008"><a href="https://doi.datacite.org/">Create DOIs with Fabrica</a></li>
+<li id="menu-item-2009" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2009"><a href="https://commons.datacite.org/">Discover metadata with Commons</a></li>
+<li id="menu-item-2010" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2010"><a href="https://datacite.org/integratorapis.html">Integrate with APIs</a></li>
+<li id="menu-item-2011" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2011"><a href="https://datacite.org/partnerservices.html">Partner services</a></li>
+</ul></div>
+              </div>
+            </div>
+          
+            <div class="col-sm-6 col-md-6 col-lg-3">
+              <h3 class="footer__menu-header">Resources</h3>
+              <div class="footer__menu">
+                <div class="menu-footer-menu-resources-container"><ul id="menu-footer-menu-resources" class="menu"><li id="menu-item-2012" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2012"><a href="https://schema.datacite.org/">Metadata schema</a></li>
+<li id="menu-item-2013" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2013"><a href="https://support.datacite.org/">Support</a></li>
+<li id="menu-item-2014" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2014"><a href="https://datacite.org/feemodel.html">Fee model</a></li>
+</ul></div>
+              </div>
+            </div>
+          
+            <div class="col-sm-6 col-md-6 col-lg-3">
+              <h3 class="footer__menu-header">Community</h3>
+              <div class="footer__menu">
+                <div class="menu-footer-menu-community-container"><ul id="menu-footer-menu-community" class="menu"><li id="menu-item-2015" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2015"><a href="https://datacite.org/members.html">Members</a></li>
+<li id="menu-item-2016" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2016"><a href="https://datacite.org/partners.html">Partners</a></li>
+<li id="menu-item-2017" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2017"><a href="https://datacite.org/steering.html">Steering groups</a></li>
+<li id="menu-item-2018" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2018"><a href="https://datacite.org/service-providers.html">Service providers</a></li>
+<li id="menu-item-2019" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2019"><a href="https://datacite.org/roadmap.html">Roadmap</a></li>
+</ul></div>
+              </div>
+            </div>
+                  </div>
+              </div>
+    </div>
+
+    <div class="row footer__second-row">
+      <div class="col-12">
+        <div class="footer__lower-menu">
+                      <div class="footer__menu footer__menu--horizontal">
+              <div class="menu-footer-lower-menu-container"><ul id="menu-footer-lower-menu" class="menu"><li id="menu-item-4284" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4284"><a href="https://datacite.org/imprint/">Imprint</a></li>
+</ul></div>
+            </div>
+          
+                      <div class="footer__menu footer__menu--horizontal footer__menu--padding-right">
+              <div class="menu-footer-terms-policy-container"><ul id="menu-footer-terms-policy" class="menu"><li id="menu-item-4283" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-4283"><a href="https://datacite.org/privacy-policy/">Privacy Policy</a></li>
+<li id="menu-item-4282" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4282"><a href="https://datacite.org/terms-and-conditions/">Terms and conditions</a></li>
+</ul></div>
+            </div>
+                  </div>
+      </div>
+
+    </div>
+  </div>
+
+  {{ $bootstrap := resources.Get "js/bootstrap.bundle.min.js" }}
+  {{ $js := slice $bootstrap | resources.Concat "js/bundle.js" | resources.Minify }}
+
+  <script src="{{$js.RelPermalink}}" defer></script>
 </footer>
