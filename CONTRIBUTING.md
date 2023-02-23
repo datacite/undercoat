@@ -29,12 +29,6 @@ Look through the GitHub issues for features. Anything tagged with
 \"enhancement\" and \"help wanted\" is open to whoever wants to
 implement it.
 
-### Write Documentation
-
-undercoat could always use more documentation, whether as part of the
-official undercoat docs, in docstrings, or even on the web in blog
-posts, articles, and such.
-
 ### Submit Feedback
 
 The best way to send feedback is to file an issue at
@@ -57,7 +51,7 @@ The best way to send contribute is to file an issue at
 If you are proposing a feature:
 
 -   Explain in detail how it would work.
--   Clone the Undercoat figma toolkit and make your changes there.
+-   Add the Undercoat [Figma Library](https://help.figma.com/hc/en-us/articles/360041051154) into your account and enable it. 
 -   Include a link to your copy of your change.
 -   Keep the scope as narrow as possible, to make it easier to
     implement.
