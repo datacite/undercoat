@@ -266,3 +266,12 @@ svg .up {
 .content {
   background-color: var(--bs-light); 
 }
+
+@media screen and (max-width: 500px) {
+  /* put your css styles in here */
+
+  .jumbotron {
+    min-height: 7vh;
+    max-height: 7vh;
+  }
+}
