@@ -6,12 +6,12 @@ bolognese: To ensure that everyone can contribute to DataCite with confidence we
 ---
 
 
-{{< initial-letter paragraph="Welcome to DataCite's Design System where you will find all the components and guidelines for DataCite service's design language. To ensure that everyone can contribute to DataCite with confidence we provide everyone with the right resources and know-how. The Design System design system is the single source of truth for everything anyone needs to know about contributing to DataCite.">}}
+{{< initial-letter paragraph="Welcome to DataCite's Design System where you will find all the components and guidelines for DataCite services' design language. To ensure that everyone can contribute to DataCite UI with confidence we provide everyone with the right resources and know-how. The Design System design system is the single source of truth for everything anyone needs to know about contributing to DataCite.">}}
 
 
 Our design system kit, which has the code name is Undercoat, is used as a reference for building SSOT components, but is not the SSOT itself.
 
-The Components of Undercoat include a range of design elements, such as colors, typography, buttons, and forms, as well as more complex components such as navigation menus and data visualizations.
+The Components include a range of design elements, such as colors, typography, buttons, and forms, as well as more complex components such as navigation menus and data visualizations.
 
 So take a look around, explore the Components of our design system, and see how it can help improve your design work. We are confident that you will find it to be a valuable tool in your design toolkit.
 
