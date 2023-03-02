@@ -19,7 +19,7 @@ So take a look around, explore the Components of our design system, and see how 
 ## Everything you need 
 Undercoat is here to make it as comfortable as possible for anyone to contribute towards DataCite. You will find information such as our principles, components, usage guidelines, branding, research methodologies, and more!
 
-Start by looking into the component documentation, including live examples.
+Start by looking into the components in the toolkit.
 
 
 ## Contributing to the design system 
