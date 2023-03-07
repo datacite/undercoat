@@ -1,5 +1,5 @@
 ---
-title: "Datacite's Design System"
+title: "DataCite's Design System"
 date: 2022-10-08T06:44:48+02:00
 draft: false
 bolognese: To ensure that everyone can contribute to DataCite with confidence we provide everyone with the right resources and know-how. The Undercoat design system is the single source of truth for everything anyone needs to know about contributing to DataCite.

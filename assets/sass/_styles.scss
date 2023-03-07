@@ -68,7 +68,8 @@ h3, .h3 {
 
 body {
   font-family: Barlow, Roboto, Helvetica Neue, sans-serif;
-  font-size: 28px; }
+  font-size: 28px; 
+}
 
 a {
   font-family: 'DM Sans', sans-serif; 
@@ -264,7 +265,7 @@ svg .up {
 }
 
 .content {
-  background-color: var(--bs-light); 
+  background-color: var(--bs-white); 
 }
 
 @media screen and (max-width: 500px) {
