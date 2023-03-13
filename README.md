@@ -1,6 +1,6 @@
 # Undercoat Design System
 
-Welcome to the Undercoat Design System repo! This repository contains the building blocks for creating consistent, cohesive, and accessible user interfaces across all of our products. You can also visit [design.datacite.org](design.datacite.org) to see the design system in action.
+Welcome to the Undercoat Design System repo! This repository contains the building blocks for creating consistent, cohesive, and accessible user interfaces across all of our products. You can also visit [design.datacite.org](https://design.datacite.org) to see the design system in action.
 
 ## Table of Contents
 - Getting Started
